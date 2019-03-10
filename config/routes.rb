@@ -7,11 +7,11 @@ Rails.application.routes.draw do
   
   get 'signup', to: 'users#new'
   
-  get 'users', to: 'users#index'
-  post 'users', to: 'users#create'
+  #get 'users', to: 'users#index'
+  #post 'users', to: 'users#create'
   
-  get'users/new', to: 'users#new'
-  get'users/:id/', to: 'users#show'
+  #get'users/new', to: 'users#new'
+  #get'users/:id/', to: 'users#show'
   #get 'users/:id/edit', to: 'users#edit'
   
   delete'/', to: 'toppages#index'
